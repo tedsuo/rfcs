@@ -62,7 +62,7 @@ For example, an OTEP proposing configurable sampling *and* various samplers shou
 
 - An OTEP is `proposed` by posting it as a PR. Once the PR is created, update the OTEP file name to use the PR ID as the OTEP ID.
 - An OTEP is `approved` when four reviewers github-approve the PR. The OTEP is then merged.
-- If an OTEP is `rejected` or `withdrawn`, the PR is closed. Note that these OTEPs submissions are still recorded, as Github retains both the discussion and the proposal, even if the branch is later deleted.
+- If an OTEP is `rejected` or `withdrawn`, the PR is closed. Note that these OTEPs submissions are still recorded, as GitHub retains both the discussion and the proposal, even if the branch is later deleted.
 - If an OTEP discussion becomes long, and the OTEP then goes through a major revision, the next version of the OTEP can be posted as a new PR, which references the old PR. The old PR is then closed. This makes OTEP review easier to follow and participate in.
 
 ### Integrating the OTEP into the Spec
@@ -85,7 +85,7 @@ Have suggestions? Concerns? Questions? **Please** raise an issue or raise the ma
 
 ## Background on the OpenTelemetry OTEP process
 
-Our OTEP process borrows from the [Rust RFC](https://github.com/rust-lang/rfcs) and [Kubernetes Enhancement Proposal](https://github.com/kubernetes/enhancements) processes, the former also being [very influential](https://github.com/kubernetes/enhancements/blob/master/keps/0001-kubernetes-enhancement-proposal-process.md#prior-art) on the latter; as well as the [OpenTracing OTEP](https://github.com/opentracing/specification/tree/master/rfc_process.md) process. Massive kudos and thanks to the respective authors and communities for providing excellent prior art 💖
+Our OTEP process borrows from the [Rust RFC](https://github.com/rust-lang/rfcs) and [Kubernetes Enhancement Proposal](https://github.com/kubernetes/enhancements) processes, the former also being [very influential](https://github.com/kubernetes/enhancements/tree/master/keps/sig-architecture/0000-kep-process#prior-art) on the latter; as well as the [OpenTracing OTEP](https://github.com/opentracing/specification/tree/master/rfc_process.md) process. Massive kudos and thanks to the respective authors and communities for providing excellent prior art 💖
 
 [circleci-image]: https://circleci.com/gh/open-telemetry/oteps.svg?style=svg
 [circleci-url]: https://circleci.com/gh/open-telemetry/oteps
